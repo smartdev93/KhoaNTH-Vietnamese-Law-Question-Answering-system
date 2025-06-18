@@ -199,3 +199,11 @@ The golden dataset I chose for evaluation consists of 1000 samples. Each sample 
 Score is rated on a 5-point scale and has an accuracy of 4.27/5
 # DEMO       
 ![demo](images/demo.png)
+
+
+---
+Move the `entrypoint.sh` file from backend to its subfolder - src
+
+`pip install pymongo, FlagEmbedding, elasticsearch`
+
+`main ~/KhoaNTH-Vietnamese-Law-Question-Answering-system/chatbot-ui streamlit run chat_interface.py --server.port 8051`
